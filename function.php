@@ -1,5 +1,4 @@
 <?php
-
 function generatePassword($passwordLength)
 {
     $password = '';

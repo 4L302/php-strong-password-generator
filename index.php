@@ -4,7 +4,7 @@ include './function.php';
 if (isset($_GET['length'])){
     /* echo $_GET['length']; */
     $passwordLenght = $_GET['length'];
-    $response = generatePassword($passwordLenght);
+    $response = generatePassword($passwordLength);
 }
 ?>
 
